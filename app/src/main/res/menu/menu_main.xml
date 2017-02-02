@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Fruits"
+        android:id="@+id/fruits">
+
+        <menu>
+            <item android:title="Grapes"
+                android:id="@+id/grapes"/>
+
+            <item android:title="Orange"
+                android:id="@+id/orange">
+                <menu>
+                    <item android:title="Bloody Orange" android:id="@+id/bloodyOrange"/>
+                    <item android:title="Regular Orange" android:id="@+id/regularOrange"/>
+                </menu>
+
+            </item>
+
+        </menu>
+    </item>
+
+    <item android:title="Vegitables"
+        android:id="@+id/vegitables">
+        <menu>
+            <item android:id="@+id/greenVegitable"
+                android:title="Green Vegitables"/>
+
+        </menu>
+    </item>
+
+</menu>
